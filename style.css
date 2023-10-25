@@ -1,0 +1,51 @@
+body {
+    padding: 20px;
+    background: #000057;
+    font-family: "Sometype Mono", monospace;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 60px;
+    /* pour centre un element inline ou inline-block : je met un text align center sur les parent de l'element */
+    /* Pour centrer l'image qui est un inline block je regle son display pour faire un block je lui met des marges auto de chque coter */
+    display: block;
+    margin: auto;
+    /*
+    border-width: 20px;
+    border-color: red;
+    border-style: solid;
+    */
+    border: black 10px solid;
+}
+h1 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+ul {
+    color: orange;
+    font-weight: 900;
+}
+p {
+    color: blanchedalmond;
+}
+h2 {
+    display: inline-block;
+    background: linear-gradient(
+        to left,
+        rgb(224, 224, 224),
+        rgb(135, 206, 235)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+ul {
+    margin-left: 20px;
+}
