@@ -42,7 +42,7 @@ h2 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-size: 25px;
 }
@@ -51,7 +51,23 @@ ul {
 }
 @media (min-width: 800px) {
     .wrapper {
+        gap: 20px;
         display: grid;
         grid-template-columns: 3fr 4fr;
+    }
+}
+@media (min-width: 1000px) {
+    .wrapper {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 4fr 8fr;
+    }
+    .content {
+        gap: 35px;
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+    }
+    h1 {
+        text-align: left;
     }
 }
