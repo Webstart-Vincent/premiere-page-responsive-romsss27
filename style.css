@@ -73,4 +73,7 @@ ul {
     h1 {
         text-align: left;
     }
+    img {
+        margin-right: 25px;
+    }
 }
