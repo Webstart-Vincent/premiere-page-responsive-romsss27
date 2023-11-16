@@ -27,6 +27,16 @@ h1 {
     text-align: center;
     font-size: 40px;
 }
+nav {
+    background-color: yellow;
+    position: fixed;
+    inset: 0;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
 ul {
     color: orange;
     font-weight: 900;
