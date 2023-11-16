@@ -10,7 +10,9 @@ img {
     /* pour centre un element inline ou inline-block : je met un text align center sur les parent de l'element */
     /* Pour centrer l'image qui est un inline block je regle son display pour faire un block je lui met des marges auto de chque coter */
     display: block;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+
     /*
     border-width: 20px;
     border-color: red;
@@ -61,9 +63,12 @@ ul {
         gap: 30px;
         display: grid;
         grid-template-columns: 4fr 8fr;
-        max-width: 1040px;
+        max-width: 1080px;
         margin-left: auto;
         margin-right: auto;
+    }
+    img {
+        margin-top: 30px;
     }
     .content {
         gap: 35px;
@@ -72,8 +77,5 @@ ul {
     }
     h1 {
         text-align: left;
-    }
-    img {
-        margin-right: 25px;
     }
 }
